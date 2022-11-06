@@ -1,0 +1,106 @@
+@font-face {
+  font-family: "Monument";
+  src: url("https://res.cloudinary.com/holatresveces/raw/upload/v1573001944/MonumentExtended-Ultrabold_clzvv7.otf");
+}
+
+.meet{
+  font-family: 'Monument';
+
+
+  /* height: 30px; */
+  color:blue;
+  /* text-shadow: 5px 5px #FFBE5B; */
+  display:flex;
+}
+
+
+
+a {
+  text-decoration:none 
+}
+a:hover{
+  color:blue;
+}
+.contact{
+  /* margin-top:200px; */
+}
+
+.home{
+  font-family: 'Roboto', sans-serif, cursive;
+  font-size: 100px;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 150px;
+  width:100%;
+  /* height: 30px; */
+  color:#1d1d1c;
+  /* text-shadow: 5px 5px #FFBE5B; */
+  width: 100%;
+  height: 100%;
+  line-height: 20px;      
+  background-color:rgb(235, 235, 15);  
+   
+  display:flex;
+  /* justify-content: center; */
+  text-align: center;
+}
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+
+body {
+  font-family: "Monument";
+  font-size: 80px;
+  line-height: 70px;
+  background-color: #dedede;
+  overflow: hidden;
+}
+
+.container {
+  position: relative;
+  height: 70px;
+  overflow: hidden;
+  outline: 1px transparent;
+}
+
+ul {
+  position: absolute;
+  top: 0;
+  left: 0;
+  list-style: none;
+  white-space: nowrap;
+}
+
+.menu {
+  /* top: 150px; */
+  color: transparent;
+  -webkit-text-stroke: 1px black;
+}
+.menu-mask{
+  /* top: 150px; */
+}
+
+.jour{
+  font-family: 'Roboto';
+  color:#1d1d1c;
+  font-weight: bold;
+  font-size:50pt;
+  position:fixed;  /* 고정 */
+  z-index:5;       /* 높이 우선순위를 높게 설정 */
+  width: 100%;     /* 너비 화면 꽉채움 */
+  height: 50px;    /* 높이 */
+  bottom:80px;         /* 위치(맨위) */
+  text-align: right;
+  margin: 0;
+  
+}

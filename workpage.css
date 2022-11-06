@@ -1,0 +1,65 @@
+@font-face {
+    font-family: "Monument";
+    src: url("https://res.cloudinary.com/holatresveces/raw/upload/v1573001944/MonumentExtended-Ultrabold_clzvv7.otf");
+  }
+
+
+a {
+    text-decoration:none 
+}
+a:hover{
+    color:blue;
+}
+
+h1{
+    font-family: 'Roboto', sans-serif, cursive;
+    font-size: 130px;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 100px;
+    width:100%;
+    /* height: 30px; */
+    /* text-shadow: 5px 5px #FFBE5B; */
+    width: 100%;
+    height: 100%;
+    line-height: 130px;         
+    display:flex;
+    /* justify-content: center; */
+    text-align: center;
+    background-color:rgb(235, 235, 15);  
+    float: left;
+    line-height: 20px;   
+}
+
+body{
+    display: inline;
+    margin: 0;
+    background-color: #000000;
+}
+
+.image{
+    /* top:30%; */
+    width:40%;
+    margin-top: 40px;
+    margin-right:20px;
+    float:right;
+    /* position: fixed; */
+}
+
+.text{
+    color: white;
+    font-family: 'Roboto';
+    font-size: 25pt;
+    font-weight: 300;
+    padding-top: 250px;
+    width: 45%;
+    margin-left: 30px;
+    text-align: justify;
+}
+
+.travail{
+    /* font-family: 'Momument'; */
+    font-weight: 600;
+    font-size: 30pt;
+}
+

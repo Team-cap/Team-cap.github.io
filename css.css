@@ -1,0 +1,80 @@
+@font-face {
+  font-family: "Monument";
+  src: url("https://res.cloudinary.com/holatresveces/raw/upload/v1573001944/MonumentExtended-Ultrabold_clzvv7.otf");
+}
+
+a {
+    text-decoration:none 
+}
+a:hover{
+    color:blue;
+}
+
+h1{
+    font-family: 'Roboto', sans-serif, cursive;
+    font-size: 200px;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width:100%;
+    /* height: 30px; */
+    color:#1d1d1c;
+    /* text-shadow: 5px 5px #FFBE5B; */
+    width: 100%;
+    height: 100%;
+    line-height: 130px;         
+    display:flex;
+    /* justify-content: center; */
+    text-align: center;
+}
+
+body{
+    display: inline;
+    margin: 0;
+    background-color: #dedede;
+}
+
+#Menu {           
+    height: 30px;
+    width: 100%;
+    position: absolute;
+    top:46%
+}
+#Menu ul li {
+    list-style: none;          
+    color: #1d1d1c;
+    background-color:rgb(235, 235, 15);  
+    float: left;
+    line-height: 20px;         
+    vertical-align: middle;    
+    text-align: center;      
+    width:33.3333%   
+}
+#Menu .menuLink {                        
+    text-decoration:none;                 
+    color: #1d1d1c;                         
+    display: block;                      
+    width: 30vw;                
+    font-size: 40px;             
+    font-weight: bold;          
+    font-family: "Roboto", Dotum, Arial; 
+}
+#Menu .menuLink:hover {          
+    color:white;              
+    background-color:blue;
+}
+
+.jour{
+    color:#1d1d1c;
+    font-family: 'roboto';
+    font-weight: bold;
+    font-size:50pt;
+    position:fixed;  /* 고정 */
+    z-index:5;       /* 높이 우선순위를 높게 설정 */
+    width: 100%;     /* 너비 화면 꽉채움 */
+    height: 50px;    /* 높이 */
+    bottom:92px;         /* 위치(맨위) */
+    text-align: right;
+    margin: 0;
+    
+  }
