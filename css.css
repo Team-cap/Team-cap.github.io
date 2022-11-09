@@ -3,6 +3,9 @@
   src: url("https://res.cloudinary.com/holatresveces/raw/upload/v1573001944/MonumentExtended-Ultrabold_clzvv7.otf");
 }
 
+
+
+
 a {
     text-decoration:none 
 }
@@ -76,5 +79,14 @@ body{
     bottom:92px;         /* 위치(맨위) */
     text-align: right;
     margin: 0;
+    
+  }
+
+
+  @media (max-width: 640px) {
+    h1 { width: 640px; font-size: 70pt; }
+    .jour {font-size: 20pt; bottom: 10px;}
+    /* #Menu ul li {width: 100vw; } */
+    #Menu .menuLink { font-size: 20px;}
     
   }
