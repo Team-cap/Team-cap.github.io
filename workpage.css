@@ -64,6 +64,14 @@ body{
     text-align: justify;
 }
 
+.diver{
+    width: 60%; margin-bottom: 40px;
+}
+
+.td{
+    width: 30%;
+}
+
 .travail{
     /* font-family: 'Momument'; */
     font-weight: 600;
@@ -72,9 +80,10 @@ body{
 
 @media (max-width: 640px) {
     h1 { font-size: 60pt; }
-    .image {width: 90%; margin-left: 10px;float:left; margin-top: 00px;}
-    .text {width: 70%; margin-left: 10px; font-size: 15pt;}
+    .image {width: 90%; margin-left: 10px;float:left; margin-top: 00px; margin-bottom: 40px;}
+    .text {width: 90%; margin-left: 10px; font-size: 15pt;}
     .travail { font-size: 17pt;}
     .noir { margin-left: 0%; width: 90%; margin-left: 10px;}
-    
+    .diver { width: 100%; margin-left: 0px;}
+    .td {width: 90%; margin-left: 10px; font-size: 15pt;}
   }
