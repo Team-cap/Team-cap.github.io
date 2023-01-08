@@ -1,0 +1,144 @@
+html{
+    background: url(media/backg.png) repeat center center
+}
+
+a {
+    text-decoration:none 
+    height:160px;
+    text-decoration-line: none;
+    color: rgba(36, 255, 0, 1);
+}
+a:hover{
+    color:blue;
+}
+
+.index{
+    background: url(media/clock.png) no-repeat center center;
+    min-height: 100vh;
+    color:#fff;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto 1fr auto;
+
+    font-family: 'Jockey One';
+    font-style: normal;
+    font-weight: 400;
+    color: rgba(36, 255, 0, 1);
+    margin: 0px;
+}
+
+.image{
+    position: absolute;
+width: 515px;
+height: 676px;
+left: 390px;
+top: 78px;
+}
+
+.poster{
+/* position: absolute; */
+width: 60vh;
+left: 721px;
+top: 63px;
+grid-row: 1/3;
+grid-column: 2/3;
+margin-left: 20vh;
+margin-top: 5vh;
+mix-blend-mode: exclusion;
+
+}
+
+.index h1{
+width: 443px;
+height: 150px;
+font-family: 'Jockey One';
+font-style: normal;
+font-weight: 400;
+font-size: 160px;
+line-height: 0.85;
+/* or 84% */
+margin: 0px;
+margin-bottom: 20vh;
+
+color: #000000;
+}
+
+.text{
+    /* position: absolute; */
+width: 70vh;
+height: 462px;
+grid-row: 2/3;
+
+font-family: 'Jockey One';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 1.2;
+margin-left: 2vh;
+margin-top: 8vh;
+
+color: #24FF00;
+/* mix-blend-mode: exclusion; */
+text-shadow: 2px 4px 2px rgba(0, 0, 0, 0.9);
+}
+
+.text_mid{
+    /* position: absolute; */
+width: 70vh;
+height: 312px;
+grid-row: 2/3;
+
+font-family: 'Jockey One';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 1.2;
+margin-left: 2vh;
+margin-top: 160pt;
+
+color: #24FF00;
+/* mix-blend-mode: exclusion; */
+text-shadow: 2px 4px 2px rgba(0, 0, 0, 0.9);
+}
+
+.text_back{
+    /* position: absolute; */
+width: 70vh;
+height: 312px;
+grid-row: 2/3;
+
+font-family: 'Jockey One';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 1.2;
+margin-left: 2vh;
+margin-top: 180pt;
+
+color: #24FF00;
+/* mix-blend-mode: exclusion; */
+text-shadow: 2px 4px 2px rgba(0, 0, 0, 0.9);
+}
+
+
+.infofilm{
+    /* position: absolute; */
+width: 679px;
+height: 31px;
+left: 282px;
+top: 794px;
+
+font-family: 'Jockey One';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 42px;
+
+color: #24FF00;
+}
+
+.index .flow{
+    grid-column: span 2;
+    font-size: 40px;
+    margin:0px;
+}
